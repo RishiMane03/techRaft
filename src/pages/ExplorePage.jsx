@@ -6,7 +6,7 @@ import Logo from "../assets/white-logo.png";
 
 import video1 from "../videos/airpod00.mp4";
 import video2 from "../videos/macbook00.mp4";
-import video3 from "../videos/iPhone00.mp4";
+import video3 from "../videos/iphone00.mp4";
 
 const videos = [
   { title: 'iPhone', description: 'The iPhone is a premium smartphone with advanced features and a stunning display.', src: video3, thumbnail: 'https://images.unsplash.com/photo-1516245556508-7d60d4ff0f39?q=80&w=1466&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', page: '/iphone' },
