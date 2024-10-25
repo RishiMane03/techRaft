@@ -12,13 +12,13 @@ import feature2 from "../assets/products-images/iphone/feature2.jpg"
 import feature3 from "../assets/products-images/iphone/feature3.jpg"
 
 // iphone
-import iPhone00 from "../assets/products-images/iphone/iPhone00.png"
-import iPhone01 from "../assets/products-images/iphone/iPhone01.png"
-import iPhone02 from "../assets/products-images/iphone/iPhone02.png"
-import iPhone03 from "../assets/products-images/iphone/iPhone03.png"
-import iPhone04 from "../assets/products-images/iphone/iPhone04.png"
-import iPhone05 from "../assets/products-images/iphone/iPhone05.png"
-import iPhone06 from "../assets/products-images/iphone/iPhone06.png"
+import iPhone00 from "../assets/products-images/iphone/iphone00.png"
+import iPhone01 from "../assets/products-images/iphone/iphone01.png"
+import iPhone02 from "../assets/products-images/iphone/iphone02.png"
+import iPhone03 from "../assets/products-images/iphone/iphone03.png"
+import iPhone04 from "../assets/products-images/iphone/iphone04.png"
+import iPhone05 from "../assets/products-images/iphone/iphone05.png"
+import iPhone06 from "../assets/products-images/iphone/iphone06.png"
 
 // airpods
 import img1 from "../assets/products-images/airpod/img1.png"
