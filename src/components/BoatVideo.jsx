@@ -1,4 +1,5 @@
 import React from 'react'
+import boatVideo from "../assets/boat-video.mp4"
 
 function BoatVideo() {
   return (
@@ -8,7 +9,7 @@ function BoatVideo() {
     muted
     loop
   >
-    <source src="src/assets/boat-video.mp4" type="video/mp4" />
+    <source src={boatVideo} type="video/mp4" />
   </video>
   )
 }
