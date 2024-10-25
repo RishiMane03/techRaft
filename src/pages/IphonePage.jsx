@@ -103,16 +103,16 @@ function IphonePage() {
           </div>
             <Card productName="iphone" />
 
-            <div className='flex items-center justify-between text-sm opacity-30 mb-2 mt-20 h-3 w-full' style={{borderTop: "1px solid black"}}>
-              <div className='pt-10'>
+            <div className='flex flex-col sm:flex-row gap-2 text-center items-center justify-between text-sm opacity-30 mb-2 mt-20 w-full' style={{borderTop: "1px solid black"}}>
+              <div className='pt-1'>
                 <p>Copyright © 2024 TechRaft Inc. All rights reserved.</p>
               </div>
 
-              <div className='pt-10'>
+              <div className='pt-1'>
                 <p>Privacy Policy | Terms of Use | Sales Policy | Legal Site Map</p>
               </div>
 
-              <div className='pt-10'>
+              <div className='pt-1'>
                 <p>India</p>
               </div>
             </div>
