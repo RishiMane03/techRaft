@@ -135,19 +135,6 @@ function MackbookPage() {
           <div className='relative pt-10'>
           </div>
             <Card productName="mac" />
-            <div className='flex flex-col sm:flex-row gap-2 text-center items-center justify-between text-sm opacity-30 mt-20 w-full' style={{borderTop: "1px solid black"}}>
-              <div className='pt-1'>
-                <p>Copyright © 2024 TechRaft Inc. All rights reserved.</p>
-              </div>
-
-              <div className='pt-1'>
-                <p>Privacy Policy | Terms of Use | Sales Policy | Legal Site Map</p>
-              </div>
-
-              <div className='pt-1'>
-                <p>India</p>
-              </div>
-            </div>
         </div>
       </div>
     </div>
