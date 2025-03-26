@@ -94,15 +94,14 @@ function ContactPage() {
         </form>
 
         <footer 
-          className='absolute bottom-0 z-20 text-[#b2b2b6] w-full flex flex-col sm:flex-row items-center 
-                     justify-between px-20 py-5'
+          className='absolute bottom-0 z-20 text-[#b2b2b6] w-full flex flex-col sm:flex-row gap-2 sm:gap-0 items-center justify-between px-20 py-5'
         >
           <div className='flex gap-6 cursor-pointer'>
             <a 
               href="https://www.linkedin.com/in/your-linkedin-profile" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className='hover:text-white'
+              className='hover:text-white sm:block hidden'
             >
               Linkedin
             </a>
@@ -110,7 +109,7 @@ function ContactPage() {
               href="https://github.com/your-github-profile" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className='hover:text-white'
+              className='hover:text-white sm:block hidden'
             >
               Github
             </a>
