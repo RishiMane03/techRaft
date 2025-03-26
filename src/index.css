@@ -237,9 +237,17 @@ body {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 400px) {
   .container {
     margin-inline: 1rem;
+  }
+
+  .card__title{
+    font-size: 1rem;
+  }
+
+  .card__img{
+    object-fit: fill;
   }
 
   .card__data {
