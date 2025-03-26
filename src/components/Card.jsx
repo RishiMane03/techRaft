@@ -7,7 +7,7 @@ const Modal = ({ isVisible, card, onClose }) => {
   return (
     <div className="modal__backdrop " onClick={onClose}>
       <div className="modal__content border h-[70vh] overflow-hidden overflow-y-scroll" onClick={(e) => e.stopPropagation()}>
-        <h2 className='mt-40 sm:mt-0 text-xl font-semibold text-center'>{card.title}</h2>
+        <h2 className='mt-10 md:mt-0 text-xl font-semibold text-center'>{card.title}</h2>
         <img src={card.image} alt={card.title} className="modal__img" />
         <p className='text-[12px] w-3/4'>{card.description}</p>
         <button className="modal__close" onClick={onClose}>Close</button>
