@@ -5,9 +5,9 @@ const Modal = ({ isVisible, card, onClose }) => {
   if (!isVisible) return null;
 
   return (
-    <div className="modal__backdrop" onClick={onClose}>
-      <div className="modal__content" onClick={(e) => e.stopPropagation()}>
-        <h2 className='text-2xl font-semibold'>{card.title}</h2>
+    <div className="modal__backdrop " onClick={onClose}>
+      <div className="modal__content border h-[70vh] overflow-hidden overflow-y-scroll" onClick={(e) => e.stopPropagation()}>
+        <h2 className='mt-40 sm:mt-0 text-xl font-semibold text-center'>{card.title}</h2>
         <img src={card.image} alt={card.title} className="modal__img" />
         <p className='text-[12px] w-3/4'>{card.description}</p>
         <button className="modal__close" onClick={onClose}>Close</button>
@@ -56,21 +56,21 @@ function Card({ productName }) {
   };
 
   return (
-    <div>
+    <div className=''>
       {/* Search and Sort Controls */}
-      <div className="flex flex-wrap justify-center items-center mb-4 mt-4">
+      <div className="flex flex-wrap gap-2 justify-center items-center mb-4 mt-4">
         <input
           type="text"
           placeholder="Search by title..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="border rounded-lg px-4 py-2 mr-2 w-[40%] outline-none"
+          className="border rounded-lg px-4 py-2 mr-2 w-[90%] outline-none"
         />
         
         {/* Sort and Reset Buttons */}
         <button 
           onClick={() => setSortOrder("lowToHigh")} 
-          className="border m-3 rounded-lg px-2 py-2 mr-2 bg-gray-200 hover:bg-gray-300"
+          className="border rounded-lg px-4 py-2 mr-2 bg-gray-200 hover:bg-gray-300"
         >
           Sort: Low to High
         </button>
